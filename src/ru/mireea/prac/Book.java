@@ -22,7 +22,6 @@ public class Book {
 
 
     }
-
     public void setPrice(int price_book) {
         this.price_book = price_book;
     }
