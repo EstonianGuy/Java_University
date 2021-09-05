@@ -31,6 +31,7 @@ public class Book {
     }
 
     public int getPrice(int price_book) {
+
         return price_book;
     }
 
