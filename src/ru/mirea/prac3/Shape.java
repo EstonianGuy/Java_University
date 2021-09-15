@@ -1,9 +1,13 @@
 package ru.mirea.prac3;
 
-public class Shape {
-    private String color;
-    private boolean filled;
+public abstract class Shape {
+    protected String color;
+    protected boolean filled;
     public Shape(){
+    }
+
+    public static void main(String[] args) {
+
     }
     public Shape(String color){
 
@@ -28,15 +32,15 @@ public class Shape {
     }
 
 
-    public double getArea(){
-        return 0;
-    }
+    public abstract double getArea();
 
-    public double getPerimetr(){
-        return 0;
-    }
+    public abstract double getPerimeter();
 
+    @Override
     public String toString(){
-        return "";
+        return "Shape {" +
+                "color='" + color + '\'' +
+                ", filled=" + filled +
+                '}';
     }
 }
