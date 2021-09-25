@@ -20,7 +20,7 @@ public class TaskAll{
     public int[] getNum(){
         return numbers;
     }
-    /*public void summWhile() {
+    public void summWhile() {
         output = 0;
         int i = 0;
         while (i < 10) {
@@ -43,7 +43,7 @@ public class TaskAll{
             output = output + numbers[i];
             i++;
         } while (i < 10);
-    }*/
+    }
 
     public String toString() {
         return "Summ = " + numbers;
