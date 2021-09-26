@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class TaskAll{
-    private int[] numbers;
+    private int[] numbers = new int[];
     private int output;
 
     public TaskAll(){
