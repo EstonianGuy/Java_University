@@ -1,4 +1,4 @@
-/*
+
 package GuiField;
 
 import java.awt.event.*;
@@ -51,4 +51,3 @@ class AL extends Frame implements ActionListener {
 
 }
 
-*/
