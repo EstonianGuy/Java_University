@@ -4,5 +4,5 @@ Storage for Java code projects
 [1st practice](https://github.com/EstonianGuy/Java_University/tree/1st_task)
 
 ### You can find anything helpful in branches
-###At 7 november was added practice task 7
+###At 7 november was added practice task 7 ###
 [7practice](https://github.com/EstonianGuy/Java_University/tree/sevenPractice)
